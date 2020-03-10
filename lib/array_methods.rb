@@ -1,8 +1,4 @@
-def find_element_index(array, value_to_find)
-  while value_to_find != array[index] do
-    index +=
-  end
-  return array[index]
+
 
 
 end
