@@ -1,10 +1,10 @@
 def find_element_index(array, value_to_find)
-  index = 0
-  while index < array.length
-     if value_to_find == array[index]
-       return array[index]
+  counter = 0
+  while counter < array.length
+     if value_to_find == array[counter]
+       return array[counter]
       else
-      index = index + 1
+      counter = counter + 1
     end
   end
 end
